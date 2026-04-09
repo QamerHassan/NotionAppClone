@@ -1,0 +1,248 @@
+.use-cases-page {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+.uc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Hero Section */
+.uc-hero {
+    padding: 80px 0 60px;
+    text-align: center;
+    position: relative;
+}
+
+.uc-hero-visuals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 32px;
+}
+
+.uc-hero-img-left,
+.uc-hero-img-right {
+    width: 200px;
+    height: auto;
+}
+
+.uc-hero h1 {
+    font-size: 80px;
+    letter-spacing: -0.04em;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+.uc-hero p {
+    font-size: 20px;
+    color: var(--fg-color-3);
+    margin-bottom: 24px;
+}
+
+.uc-learn-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border: 1px solid var(--fg-color-0);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.uc-learn-more:hover {
+    background: #f7f6f3;
+}
+
+/* Filter Chips */
+.uc-filters {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 40px 0 60px;
+}
+
+.uc-chip {
+    padding: 8px 24px;
+    background: #f1f1ef;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.uc-chip:hover {
+    background: #e8e8e6;
+}
+
+.uc-chip.active {
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Use Case Grid */
+.uc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.uc-card {
+    background: #f7f6f3;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.uc-card-content {
+    padding: 32px;
+    background: white;
+    margin: 12px;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.uc-card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.uc-card-footer {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 24px;
+    margin-top: auto;
+}
+
+.uc-card-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.uc-card-source {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--fg-color-2);
+    margin-top: 8px;
+}
+
+.uc-card-img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #f1f1f1;
+}
+
+/* Share Section */
+.uc-share {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: #ffffff;
+}
+
+.uc-share-content {
+    flex: 1;
+}
+
+.uc-share h2 {
+    font-size: 64px;
+    letter-spacing: -0.04em;
+    margin-bottom: 16px;
+}
+
+.uc-share p {
+    font-size: 18px;
+    color: var(--fg-color-3);
+    margin-bottom: 32px;
+}
+
+.uc-share-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+.uc-share-list li {
+    font-size: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.uc-share-list li::before {
+    content: "•";
+    color: var(--fg-color-2);
+}
+
+.uc-share-btns {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-uc-black {
+    background: black;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-uc-plain {
+    background: white;
+    color: var(--fg-color);
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    border: 1px solid var(--fg-color-0);
+    cursor: pointer;
+}
+
+.uc-share-img {
+    flex: 1.2;
+}
+
+.uc-share-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Pagination */
+.uc-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 40px 0;
+    border-top: 1px solid #f1f1f1;
+}
+
+.uc-page-num {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.uc-page-num.active {
+    background: #f1f1ef;
+}

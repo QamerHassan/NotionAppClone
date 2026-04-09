@@ -1,0 +1,443 @@
+.onboarding-page {
+    background-color: #191919;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.onb-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    gap: 12px;
+}
+
+.onb-back-btn {
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.onb-back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.onb-lang-selector {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.onb-lang-selector:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.onb-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: -60px;
+    /* Optical centering */
+}
+
+.onb-content {
+    text-align: center;
+    max-width: 480px;
+    width: 100%;
+}
+
+.onb-content h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.onb-subtitle {
+    font-size: 16px;
+    color: #8f8f8f;
+    margin-bottom: 48px;
+}
+
+.onb-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.onb-card {
+    background-color: transparent;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.onb-card:hover,
+.onb-card.selected {
+    background-color: #262626;
+    border-color: #444;
+}
+
+.onb-icon-container {
+    color: #fff;
+}
+
+.onb-card-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.onb-card-text p {
+    font-size: 14px;
+    color: #8f8f8f;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .onb-content h1 {
+        font-size: 24px;
+    }
+
+    .onb-card {
+        padding: 16px;
+        gap: 16px;
+    }
+}
+
+/* Invite Section */
+.onb-invite-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.onb-label {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+}
+
+.onb-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.onb-input {
+    background-color: transparent;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 10px 12px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+    width: 100%;
+}
+
+.onb-input:focus {
+    border-color: #2383e2;
+}
+
+.onb-input::placeholder {
+    color: #555;
+}
+
+.onb-text-btn {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.onb-text-btn:hover {
+    color: #fff;
+}
+
+.onb-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.onb-btn-secondary {
+    background-color: rgba(35, 131, 226, 0.1);
+    /* Slight blue tint matching screenshot dark button */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #2383e2;
+    /* Notion Blue */
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+    width: 100%;
+    height: 36px;
+}
+
+.onb-btn-secondary:hover {
+    background-color: rgba(35, 131, 226, 0.15);
+}
+
+.onb-btn-primary {
+    background-color: #2383e2;
+    /* Standard Notion Blue */
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    width: 100%;
+    text-align: center;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.onb-btn-primary:hover {
+    background-color: #1a71c8;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Plan Selection */
+.onb-plan-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.onb-plan-card {
+    background-color: #191919;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.onb-plan-card.featured {
+    background-color: #202020;
+    border: 1px solid #444;
+}
+
+.onb-plan-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.plan-price {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.plan-price .amount {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.plan-price .amount.strikethrough {
+    font-size: 24px;
+    color: #666;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.plan-price .period {
+    font-size: 13px;
+    color: #999;
+}
+
+.onb-plan-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 32px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.onb-plan-btn.secondary {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #007aff;
+}
+
+.onb-plan-btn.secondary:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.onb-plan-btn.primary {
+    background-color: #007aff;
+    color: #fff;
+}
+
+.onb-plan-btn.primary:hover {
+    background-color: #0062cc;
+}
+
+.plan-features {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #ccc;
+    text-align: left;
+}
+
+.feature-item svg {
+    color: #999;
+    min-width: 16px;
+    /* Prevent shrink */
+}
+
+@media (max-width: 768px) {
+    .onb-plan-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Download Step */
+.onb-download-visual {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.onb-app-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.onb-app-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.onb-features-list-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.feature-item-center {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.feature-item-center svg {
+    color: #999;
+}
+
+.onb-btn-primary.large {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.onb-skip-link {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.onb-skip-link:hover {
+    color: #999;
+}

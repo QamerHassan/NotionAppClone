@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.partners-page {
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+}
+
+.partners-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Hero */
+.partners-hero {
+    padding: 100px 0 60px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+
+.hero-text p {
+    font-size: 21px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.hero-illustration {
+    width: 400px;
+    height: 300px;
+}
+
+.illus-people {
+    /* Placeholder for the line art illustration */
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMzAwIj48cGF0aCBkPSJNIDEwMCAyNTAgTCAxNTAgMTUwIEwgMjAwIDI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiLz48Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMjAiIHI9IjMwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==') no-repeat center;
+    background-size: contain;
+}
+
+/* Programs */
+.partners-programs {
+    padding: 80px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.program-card {
+    background: #fbfaf9;
+    /* Use specific faint backgrounds if needed */
+    padding: 40px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.partners-programs .program-card:nth-child(2) {
+    background: #f5f7f9;
+}
+
+.partners-programs .program-card:nth-child(3) {
+    background: #f5f7f9;
+}
+
+.partners-programs .program-card:nth-child(4) {
+    background: #fbfaf9;
+}
+
+.prog-icon {
+    margin-bottom: 24px;
+}
+
+.program-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.program-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 24px;
+}
+
+.program-card a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.program-card a:hover {
+    text-decoration: underline;
+}
+
+/* Builders Banner */
+.builders-banner {
+    background: #fbfaf9;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.builders-content {
+    max-width: 500px;
+}
+
+.builders-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+.builders-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 24px;
+}
+
+.builders-content a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.builders-illus {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiss-army-knife {
+    position: relative;
+    width: 140px;
+    height: 40px;
+}
+
+.knife-body {
+    background: #0066cc;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.tool {
+    position: absolute;
+    color: #1a1a1a;
+}
+
+.t1 {
+    top: -20px;
+    left: 20px;
+    transform: rotate(-45deg);
+}
+
+.t2 {
+    top: -30px;
+    left: 60px;
+    transform: rotate(-10deg);
+}
+
+.t3 {
+    top: -20px;
+    left: 100px;
+    transform: rotate(45deg);
+}
+
+/* Ecosystem */
+.partners-ecosystem {
+    padding: 80px 0;
+}
+
+.ecosystem-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ecosystem-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.eco-testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 60px;
+}
+
+.eco-card {
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eco-logo-header {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.tf-avatar {
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.eco-quote {
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 1;
+    margin-bottom: 24px;
+    font-style: italic;
+    /* Match editorial feel mostly */
+    font-family: 'Georgia', serif;
+}
+
+.eco-author {
+    font-size: 13px;
+}
+
+.author-name {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.author-role {
+    color: #666;
+}
+
+.partner-logo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 60px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pl-item {
+    font-size: 20px;
+    font-weight: 700;
+    color: #999;
+}
+
+/* More Involved */
+.partners-involved {
+    padding: 80px 0 120px;
+}
+
+.involved-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.involved-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.involved-grid {
+    display: flex;
+    gap: 32px;
+}
+
+.involved-card {
+    flex: 1;
+    background: #fbfaf9;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+
+.inv-content {
+    padding: 48px;
+    flex: 1;
+}
+
+.inv-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #e56a4b;
+    margin-bottom: 12px;
+}
+
+.inv-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.inv-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 24px;
+}
+
+.inv-content a {
+    color: #0066cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.inv-image {
+    width: 250px;
+    height: 100%;
+    background: #eee;
+}
+
+.img-marketplace {
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2RmZSIvPjwvc3ZnPg==') no-repeat center;
+    background-size: cover;
+}
+
+.img-solutions {
+    background: #fff;
+    /* White background for the illustration side if needed */
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .programs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .builders-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .eco-testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .involved-grid {
+        flex-direction: column;
+    }
+
+    .involved-card {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .inv-image {
+        width: 100%;
+        height: 200px;
+    }
+}

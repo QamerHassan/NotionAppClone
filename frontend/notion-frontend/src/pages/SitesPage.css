@@ -1,0 +1,241 @@
+.sites-page {
+    background-color: #fff;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.sites-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.sites-hero {
+    padding: 100px 20px 60px;
+    text-align: center;
+}
+
+.sites-hero .category {
+    font-weight: 500;
+    color: #666;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.sites-hero h1 {
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.sites-hero p {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 32px;
+}
+
+.sites-hero .btn-black {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sites-hero-illustration {
+    margin-top: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sites-hero-illustration img {
+    width: 100%;
+}
+
+/* Steps Section */
+.sites-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 80px 0;
+}
+
+.sites-step .step-num {
+    font-size: 48px;
+    font-weight: 700;
+    color: #007aff;
+    opacity: 0.3;
+    margin-bottom: 8px;
+}
+
+.sites-step h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.sites-step p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Templates Section */
+.sites-templates {
+    padding: 100px 0;
+}
+
+.sites-templates h2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    max-width: 700px;
+    line-height: 1.1;
+}
+
+.sites-templates-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.sites-tab {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background: #f7f6f3;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sites-tab.active {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+}
+
+.sites-template-preview {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.sites-template-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.sites-template-card {
+    background: #fff;
+}
+
+.sites-template-card .card-img {
+    background: #f7f6f3;
+    aspect-ratio: 16/10;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.sites-template-card h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.sites-template-card .author {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Feature Rows */
+.sites-feature-row {
+    padding: 100px 0;
+}
+
+.sites-feature-row h2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.sites-feature-card {
+    background: #f7f6f3;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+/* Customize Section */
+.sites-customize {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.sites-customize-card {
+    background: #f7f6f3;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.sites-small-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.sites-small-card {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+/* Launch Section */
+.sites-launch {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.sites-launch h2 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+    .sites-hero h1 {
+        font-size: 56px;
+    }
+
+    .sites-steps,
+    .sites-template-grid,
+    .sites-customize,
+    .sites-small-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sites-launch h2 {
+        font-size: 56px;
+    }
+}

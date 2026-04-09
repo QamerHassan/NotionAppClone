@@ -1,0 +1,357 @@
+.calendar-page {
+    background-color: #fff;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.calendar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.bg-light {
+    background-color: #fafafa;
+}
+
+/* Hero Section */
+.calendar-hero {
+    text-align: center;
+    padding: 100px 0 60px;
+    position: relative;
+}
+
+.calendar-hero-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.calendar-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.hero-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+
+.calendar-hero h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+}
+
+.calendar-hero p {
+    font-size: 20px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto 32px;
+    line-height: 1.5;
+}
+
+.calendar-btn-large {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+/* Floating Icons */
+.floating-icons-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.floating-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+    font-size: 24px;
+}
+
+/* Specific positions for floating icons - matching screenshot */
+.icon-laptop {
+    top: 20%;
+    left: 15%;
+    border-left: 4px solid #4a90e2;
+}
+
+.icon-basketball {
+    top: 35%;
+    left: 25%;
+    border-left: 4px solid #f5a623;
+}
+
+.icon-cat {
+    top: 50%;
+    left: 12%;
+    border-left: 4px solid #d0021b;
+}
+
+.icon-doc {
+    top: 75%;
+    left: 22%;
+    border-left: 4px solid #50e3c2;
+}
+
+.icon-list {
+    top: 25%;
+    right: 28%;
+    border-left: 4px solid #bd10e0;
+}
+
+.icon-bike {
+    top: 28%;
+    right: 12%;
+    border-left: 4px solid #7ed321;
+}
+
+.icon-coffee {
+    top: 55%;
+    right: 18%;
+    border-left: 4px solid #f4a261;
+}
+
+.main-visual-mockup {
+    margin: 40px auto 0;
+    max-width: 1000px;
+    position: relative;
+    z-index: 1;
+}
+
+.mockup-img-container {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 24px;
+    border: 1px solid #efefef;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
+}
+
+.mockup-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Simplified Content Section */
+.simplified-section {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.simplified-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.menu-bar-mockup {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+/* Feature Panels */
+.calendar-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.feature-panel {
+    background: #fafafa;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.feature-panel h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.feature-panel p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.feature-panel-visual {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    padding: 20px;
+}
+
+/* Integration Section */
+.integration-section {
+    text-align: center;
+}
+
+.integration-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+
+/* FAQ */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+}
+
+.faq-question {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Download Section */
+.download-section {
+    text-align: center;
+    background: #fafafa;
+    padding: 100px 0;
+}
+
+.download-section h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.download-link {
+    color: #4a90e2;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 48px;
+}
+
+.download-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.download-card {
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px;
+    border: 1px solid #eee;
+}
+
+.download-card h3 {
+    font-weight: 700;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card-img-placeholder {
+    height: 300px;
+    background: #f7f6f3;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn-outline {
+    padding: 8px 16px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .calendar-hero h1 {
+        font-size: 52px;
+    }
+
+    .floating-icons-container {
+        display: none;
+    }
+
+    .calendar-features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .calendar-hero h1 {
+        font-size: 40px;
+    }
+
+    .download-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,450 @@
+.meetings-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 96px;
+}
+
+/* Meetings Section */
+.meetings-section {
+    margin-bottom: 48px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.section-title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.section-icon {
+    color: #999;
+}
+
+.notes-icon {
+    font-size: 18px;
+}
+
+.section-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.section-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.action-btn {
+    background: transparent;
+    border: none;
+    color: #999;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.action-btn:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.new-btn {
+    background-color: #2383e2;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.new-btn:hover {
+    background-color: #1a71c8;
+}
+
+/* Upcoming Meetings */
+.upcoming-content {
+    display: flex;
+    gap: 40px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.upcoming-left-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-promo {
+    max-width: 280px;
+    text-align: left;
+}
+
+.calendar-icon-box {
+    width: 56px;
+    height: 56px;
+    background-color: #2f2f2f;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #999;
+    border: 1px solid #3f3f3f;
+}
+
+.calendar-promo h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #dcdcdc;
+    line-height: 1.5;
+    margin: 0 0 16px 0;
+}
+
+.connect-calendar-link {
+    color: #2383e2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.connect-calendar-link:hover {
+    text-decoration: underline;
+}
+
+.upcoming-right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-left: 1px solid #2f2f2f;
+    padding-left: 40px;
+}
+
+.meeting-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.meeting-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.meeting-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #999;
+}
+
+.meeting-time {
+    color: #999;
+}
+
+.meta-dot {
+    color: #666;
+}
+
+.meeting-attendees {
+    color: #666;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.meeting-duration {
+    color: #999;
+}
+
+.transcribe-btn {
+    background: transparent;
+    border: 1px solid #444;
+    color: #ccc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    width: fit-content;
+    transition: background 0.2s;
+}
+
+.transcribe-btn:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* All Meeting Notes */
+.empty-notes-state {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 80px 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.empty-icon {
+    font-size: 48px;
+    opacity: 0.5;
+}
+
+.empty-notes-state p {
+    max-width: 500px;
+    font-size: 14px;
+    color: #999;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.new-ai-note-btn {
+    background-color: #2383e2;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.new-ai-note-btn:hover {
+    background-color: #1a71c8;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .upcoming-content {
+        flex-direction: column;
+    }
+
+    .upcoming-right-panel {
+        border-left: none;
+        border-top: 1px solid #2f2f2f;
+        padding-left: 0;
+        padding-top: 32px;
+    }
+
+    .meetings-container {
+        padding: 40px 24px;
+    }
+}
+/* --- Meeting Detail View --- */
+.meeting-detail-view {
+    padding: 24px 64px;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #efefef;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.back-bread-btn {
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    padding: 0;
+}
+
+.back-bread-btn:hover {
+    color: #efefef;
+    text-decoration: underline;
+}
+
+.detail-header {
+    margin-bottom: 40px;
+}
+
+.detail-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.detail-meta {
+    display: flex;
+    gap: 8px;
+}
+
+.meta-pill {
+    background: rgba(255, 255, 255, 0.08);
+    color: #efefef;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* --- Recording Card --- */
+.recording-card {
+    background: #191919;
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.card-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #333;
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: #888;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #efefef;
+}
+
+.start-transcribing-btn {
+    background: #2383e2;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.2s;
+}
+
+.start-transcribing-btn:hover {
+    background: #1a73ca;
+}
+
+.start-transcribing-btn.recording {
+    background: transparent;
+    border: 1px solid #ef5b5b;
+    color: #ef5b5b;
+}
+
+.start-transcribing-btn.recording:hover {
+    background: rgba(239, 91, 91, 0.1);
+}
+
+.recording-dot {
+    width: 8px;
+    height: 8px;
+    background: #ef5b5b;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+.card-body {
+    padding: 60px 40px;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.live-transcript {
+    width: 100%;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #efefef;
+}
+
+.ai-hint {
+    color: #666;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.consent-hint {
+    color: #444;
+    font-size: 12px;
+}
+
+.card-footer {
+    padding: 12px 16px;
+    border-top: 1px solid #333;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.audio-controls {
+    display: flex;
+    gap: 12px;
+    color: #666;
+}
+
+.audio-controls svg {
+    cursor: pointer;
+}
+
+.audio-controls svg:hover {
+    color: #888;
+}
+
+.interim-text {
+    color: #888;
+    font-style: italic;
+}

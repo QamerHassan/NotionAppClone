@@ -1,0 +1,78 @@
+:root {
+  /* Notion Color Palette - Light Mode */
+  --bg-color: #ffffff;
+  --fg-color: #37352f;
+  --fg-color-0: rgba(55, 53, 47, 0.09);
+  --fg-color-1: rgba(55, 53, 47, 0.16);
+  --fg-color-2: rgba(55, 53, 47, 0.4);
+  --fg-color-3: rgba(55, 53, 47, 0.6);
+  --fg-color-4: #37352f;
+  --bg-color-0: #ffffff;
+  --bg-color-1: #f7f6f3;
+  --bg-color-2: #eeeeee;
+  
+  --select-color-0: #2eaadc;
+  --select-color-1: rgba(45, 170, 219, 0.3);
+  --select-color-2: #d9eff7;
+  
+  --notion-blue: #0081ff;
+  --notion-red: #ff5263;
+  --notion-pink: #e03e8e;
+  --notion-purple: #9d3789;
+  --notion-orange: #d9730d;
+  --notion-yellow: #dfab01;
+  --notion-green: #448361;
+  --notion-gray: #9b9a97;
+  --notion-brown: #976d57;
+
+  /* Typography */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-serif: Lyon-Text, Georgia, ui-serif, serif;
+  --font-mono: iawriter-mono, Nitti, Menlo, Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Scrollbar styling - Notion style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--fg-color-1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--fg-color-2);
+}

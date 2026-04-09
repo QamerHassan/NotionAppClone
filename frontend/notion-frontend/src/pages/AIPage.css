@@ -1,0 +1,368 @@
+.ai-page {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    overflow-x: hidden;
+}
+
+.ai-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Hero Section */
+.ai-hero {
+    padding: 120px 0 80px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.ai-hero-content {
+    flex: 1;
+}
+
+.ai-hero-content h1 {
+    font-size: 80px;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    margin-bottom: 24px;
+}
+
+.ai-hero-content p {
+    font-size: 20px;
+    color: var(--fg-color-3);
+    max-width: 480px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.ai-hero-cta {
+    display: flex;
+    gap: 16px;
+}
+
+.ai-hero-img {
+    flex: 1.2;
+}
+
+.ai-hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Trust Section */
+.trust-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.trust-section p {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--fg-color-2);
+    margin-bottom: 32px;
+    letter-spacing: 0.1em;
+}
+
+.trust-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    opacity: 0.8;
+}
+
+.trust-logos img {
+    height: 24px;
+}
+
+/* Video Section */
+.video-section {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f7f6f3;
+}
+
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+    display: flex;
+    overflow: hidden;
+}
+
+.video-left {
+    flex: 1;
+    padding: 60px;
+    text-align: left;
+}
+
+.video-right {
+    flex: 1;
+    background: #f0f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.video-right img {
+    width: 60%;
+}
+
+.play-btn {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.quote-block {
+    margin-top: 60px;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.quote-date {
+    font-size: 14px;
+    color: var(--fg-color-2);
+}
+
+/* Calculator Section */
+.calculator-section {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.calculator-section h2 {
+    font-size: 56px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+
+.calc-link {
+    color: #007aff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.calculator-card {
+    background: white;
+    border: 1px solid var(--fg-color-0);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.calc-header {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.calc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.calc-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.calc-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.calc-item .price {
+    font-size: 12px;
+    color: var(--fg-color-2);
+}
+
+.calc-footer {
+    display: flex;
+    gap: 24px;
+    background: #f7f6f3;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.input-group {
+    flex: 1;
+}
+
+.input-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.number-input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--fg-color-0);
+    border-radius: 8px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.result-group {
+    flex: 1;
+}
+
+.result-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.result-value {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+/* Agent Section */
+.agent-section {
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.agent-content {
+    flex: 1.2;
+}
+
+.agent-content h2 {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 32px;
+}
+
+.agent-img {
+    flex: 1;
+}
+
+.agent-img img {
+    width: 70%;
+    float: right;
+}
+
+.agent-promo {
+    background: #f7f6f3;
+    border-radius: 16px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.feature-card {
+    background: #f7f6f3;
+    border-radius: 16px;
+    padding: 32px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.feature-visual {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 12px;
+    margin-top: auto;
+}
+
+.feature-visual img {
+    width: 80%;
+}
+
+.agent-cta-footer {
+    padding: 80px 0;
+    border-top: 1px solid var(--fg-color-0);
+    margin-top: 80px;
+}
+
+.agent-cta-footer h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.agent-cta-footer a {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.icons-group-img {
+    width: 100%;
+    margin-top: 24px;
+}
+
+/* Primary Button Styling Override for AI Page */
+.btn-ai-primary {
+    background-color: #007aff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-ai-secondary {
+    background-color: #eef6ff;
+    color: #007aff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,250 @@
+.integrations-page {
+    background-color: #fff;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.int-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.bg-light {
+    background-color: #fafafa;
+}
+
+/* Hero Section */
+.int-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 100px 0 60px;
+}
+
+.int-hero-content {
+    flex: 1;
+}
+
+.int-hero-content .category {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.int-hero-content h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.int-hero-content p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 32px;
+    max-width: 480px;
+}
+
+.int-hero-illustration {
+    flex: 1;
+}
+
+.int-hero-illustration svg {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Feature Sections */
+.int-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.int-feature .category {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.int-feature h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.int-feature p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 32px;
+}
+
+.int-app-logos {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 48px;
+}
+
+.logo-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.logo-badge img {
+    width: 20px;
+    height: 20px;
+}
+
+.int-mockup {
+    width: 100%;
+    max-width: 900px;
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    margin-top: 40px;
+}
+
+/* Automation Cards */
+.int-automation-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.int-automation-card {
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.int-automation-card .logo {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 16px;
+}
+
+.int-automation-card p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.int-status-tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.int-status-tag.green {
+    background: #e7f3ef;
+    color: #066c4e;
+}
+
+.int-status-tag.blue {
+    background: #eef1f5;
+    color: #2e517e;
+}
+
+/* Browse Grid */
+.int-browse-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    margin-top: 48px;
+}
+
+.int-browse-item {
+    aspect-ratio: 1/1;
+    border: 1px solid #efefef;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FAQ Accordion */
+.int-faq {
+    max-width: 800px;
+    margin: 0 auto 100px;
+}
+
+.int-faq h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.int-faq-item {
+    border-bottom: 1px solid #efefef;
+}
+
+.int-faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .int-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .int-hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .int-automation-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .int-browse-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .int-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .int-automation-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .int-browse-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.academy-page {
+    background-color: #fff;
+    color: #1a1a1a;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.ac-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Sub Nav */
+.academy-subnav {
+    border-bottom: 1px solid #efefef;
+    background: #fff;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.subnav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subnav-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.ac-logo {
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    background: #000;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.subnav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.subnav-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subnav-links a.active {
+    color: #000;
+}
+
+.subnav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ac-search {
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 200px;
+}
+
+.ac-search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}
+
+.btn-signin {
+    background: transparent;
+    border: 1px solid #efefef;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Hero */
+.ac-hero {
+    padding: 100px 0;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 16px;
+}
+
+.ac-btn-black {
+    background: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ac-btn-black.small {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.ac-btn-outline {
+    background: transparent;
+    color: #000;
+    border: 1px solid #e1e1e1;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.char-illustration {
+    font-size: 200px;
+}
+
+.tea-illustration {
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+    font-size: 60px;
+}
+
+/* Paths */
+.ac-paths {
+    padding: 80px 0;
+}
+
+.ac-paths h2,
+.ac-banner h2,
+.ac-featured h2,
+.ac-resources h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.section-sub {
+    font-size: 18px;
+    color: #666;
+    max-width: 700px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+.paths-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.path-card {
+    background: #fbfbfb;
+    padding: 32px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.path-card:hover {
+    border-color: #efefef;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.path-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.path-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    height: 70px;
+}
+
+.lesson-count {
+    font-size: 13px;
+    color: #999;
+}
+
+/* Banner */
+.ac-banner {
+    padding: 100px 0;
+}
+
+.banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text {
+    max-width: 500px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.banner-illustration {
+    font-size: 200px;
+}
+
+/* Featured */
+.ac-featured {
+    padding: 80px 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.lesson-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-thumb {
+    height: 140px;
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.lesson-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.lesson-card p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    flex: 1;
+}
+
+.lesson-meta {
+    font-size: 12px;
+    color: #999;
+}
+
+/* Resources */
+.ac-resources {
+    padding: 100px 0;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 60px;
+}
+
+.ac-res-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.ac-res-card p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.link-arrow {
+    color: #0081f1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+
+    .paths-grid,
+    .resource-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lessons-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-inner,
+    .banner-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-text,
+    .banner-text {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .subnav-inner {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .subnav-links {
+        display: none;
+        /* Simplify for mobile for now */
+    }
+
+    .paths-grid,
+    .resource-grid,
+    .lessons-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}

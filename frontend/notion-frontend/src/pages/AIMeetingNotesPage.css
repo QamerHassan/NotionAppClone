@@ -1,0 +1,347 @@
+.meeting-notes-page {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+.mn-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Hero Section */
+.mn-hero {
+    padding: 100px 0 80px;
+    text-align: center;
+}
+
+.mn-hero .category {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--fg-color-2);
+    margin-bottom: 24px;
+    display: block;
+}
+
+.mn-hero h1 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-bottom: 24px;
+    line-height: 1;
+}
+
+.mn-hero p {
+    font-size: 24px;
+    color: var(--fg-color-3);
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.4;
+}
+
+.mn-hero-visual {
+    margin-top: 80px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid var(--fg-color-0);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.mn-visual-header {
+    padding: 24px 32px 0;
+    border-bottom: 1px solid var(--fg-color-0);
+    display: flex;
+    gap: 32px;
+}
+
+.mn-tab {
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--fg-color-3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.mn-tab.active {
+    color: var(--fg-color);
+    border-bottom-color: var(--fg-color);
+}
+
+.mn-visual-content {
+    padding: 40px;
+    min-height: 300px;
+}
+
+.mn-step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: var(--fg-color-3);
+}
+
+.mn-step.completed {
+    color: var(--fg-color);
+}
+
+.mn-check {
+    width: 32px;
+    height: 32px;
+    background: #007aff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Trust Section */
+.mn-trust {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.mn-trust p {
+    font-size: 14px;
+    color: var(--fg-color-2);
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.mn-trust-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    opacity: 0.8;
+}
+
+.mn-trust-logos span {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+/* Tailored Section */
+.mn-tailored {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.mn-tailored h2 {
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
+.mn-tailored p.subtitle {
+    font-size: 20px;
+    color: var(--fg-color-3);
+    margin-bottom: 60px;
+}
+
+.mn-tailored-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.mn-tailored-card {
+    background: white;
+    border: 1px solid var(--fg-color-0);
+    padding: 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.mn-tailored-card .icon {
+    font-size: 24px;
+    color: #007aff;
+}
+
+.mn-mockup-1-1 {
+    background: #eef6ff;
+    border-radius: 24px;
+    padding: 60px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mn-page-mockup {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Brainstorm Section (Yellow) */
+.mn-brainstorm {
+    background: #fff8eb;
+    padding: 100px 0;
+    margin: 80px 0;
+}
+
+.mn-brainstorm-mockup {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Works Everywhere */
+.mn-works {
+    padding: 100px 0;
+}
+
+.mn-works h2 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.mn-works p.center {
+    font-size: 20px;
+    color: var(--fg-color-3);
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.mn-works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.mn-work-card {
+    background: #f7f6f3;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mn-work-card h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.mn-work-card p {
+    color: var(--fg-color-3);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Progress Section */
+.mn-progress {
+    padding: 100px 0;
+}
+
+.mn-progress h2 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.mn-progress-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.mn-progress-item {
+    background: #f7f6f3;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.mn-progress-item h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.mn-progress-item p {
+    font-size: 16px;
+    color: var(--fg-color-3);
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+/* Security */
+.mn-security {
+    padding: 100px 0;
+    border-top: 1px solid var(--fg-color-0);
+}
+
+.mn-security h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.mn-security-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 40px;
+}
+
+/* Testimonials */
+.mn-testimonials {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.mn-testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.mn-t-card {
+    padding: 32px;
+    border: 1px solid var(--fg-color-0);
+    border-radius: 24px;
+}
+
+.mn-t-content {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.mn-t-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mn-t-info div:first-child {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.mn-t-info div:last-child {
+    font-size: 12px;
+    color: var(--fg-color-2);
+}

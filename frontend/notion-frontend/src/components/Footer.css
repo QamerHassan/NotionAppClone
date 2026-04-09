@@ -1,0 +1,125 @@
+.footer {
+    padding: 80px 0 40px;
+    border-top: 1px solid #f1f1f1;
+    background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 200px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.footer-logo img {
+    width: 28px;
+    height: 28px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+    color: #666;
+}
+
+.footer-social svg {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.footer-social svg:hover {
+    color: #000;
+}
+
+.footer-lang select {
+    padding: 8px 12px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    flex: 1;
+    margin-left: 80px;
+}
+
+.footer-column h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-column a:hover {
+    color: #007aff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-bottom-links a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-bottom-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #666;
+}

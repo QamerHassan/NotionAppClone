@@ -1,0 +1,329 @@
+.projects-page {
+    background-color: #fff;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.projects-hero {
+    padding: 100px 20px 60px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.projects-hero-content {
+    flex: 1;
+}
+
+.projects-hero .category {
+    font-weight: 500;
+    color: #666;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.projects-hero h1 {
+    font-size: 80px;
+    line-height: 0.9;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.projects-hero p {
+    font-size: 20px;
+    color: #666;
+    max-width: 500px;
+    margin-bottom: 32px;
+    line-height: 1.4;
+}
+
+.projects-hero-btns {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+
+.projects-hero-illustration {
+    flex: 1;
+}
+
+.projects-hero-illustration img {
+    width: 100%;
+    height: auto;
+}
+
+/* Logos Section */
+.projects-logos {
+    text-align: center;
+    padding: 40px 0 80px;
+}
+
+.projects-logos p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 32px;
+}
+
+.projects-logo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    filter: grayscale(1) opacity(0.7);
+}
+
+.projects-logo-grid span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Section Headings */
+.section-title {
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 40px;
+    line-height: 1.1;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+
+.feature-card h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.small-feature-card {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.small-feature-card h4 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.small-feature-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Integrations */
+.integrations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.integration-card {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.integration-card .icon-box {
+    margin-bottom: 20px;
+}
+
+.integration-card h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.integration-card p {
+    font-size: 14px;
+    color: #666;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.integration-card a {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* G2 Section */
+.g2-section {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 60px;
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.g2-content {
+    flex: 1;
+}
+
+.g2-badges {
+    flex: 1;
+    display: flex;
+    gap: 12px;
+}
+
+.g2-badge {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Quotes */
+.quotes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.quote-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.quote-card blockquote {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+/* Import Section */
+.import-section {
+    background: #f7f6f3;
+    border-radius: 20px;
+    padding: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Final CTA */
+.final-cta {
+    padding: 120px 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.final-cta h2 {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.final-cta p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Buttons (Sync with global if needed) */
+.btn-primary {
+    background-color: #007aff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #eee;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-large {
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+/* Mockups */
+.mockup-img {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .projects-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects-hero h1 {
+        font-size: 56px;
+    }
+
+    .projects-hero-btns {
+        justify-content: center;
+    }
+
+    .feature-grid,
+    .integrations-grid,
+    .quotes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .final-cta {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .final-cta h2 {
+        font-size: 56px;
+    }
+}

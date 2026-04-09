@@ -1,0 +1,353 @@
+.consultants-page {
+    background-color: #fff;
+    color: #111;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cons-main {
+    padding-top: 60px;
+}
+
+/* Hero */
+.cons-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.cons-hero-content {
+    flex: 1;
+    padding-right: 60px;
+}
+
+.cons-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    letter-spacing: -1.5px;
+}
+
+.cons-hero-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.cons-hero-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-cons-primary {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-cons-secondary {
+    background-color: #f1f3f5;
+    color: #111;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cons-hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.cons-illustration-placeholder {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Engagement */
+.cons-engagement {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.cons-engagement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.cons-engagement-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 500px;
+    line-height: 1.2;
+}
+
+.cons-engagement-header p {
+    font-size: 18px;
+    color: #444;
+    max-width: 400px;
+}
+
+.scale-icon {
+    font-size: 64px;
+}
+
+.cons-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.cons-card {
+    background: #f7f7f5;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.card-icon {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.cons-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.card-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 32px;
+    min-height: 72px;
+}
+
+.cons-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.cons-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+.cons-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cons-list li::before {
+    content: "✔";
+    color: #000;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #000;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cons-link {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cons-link:hover {
+    text-decoration: underline;
+}
+
+/* Resources */
+.cons-resources {
+    max-width: 1100px;
+    margin: 120px auto;
+    padding: 0 20px;
+}
+
+.cons-resources h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 80px;
+    line-height: 1.1;
+}
+
+.cons-resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.res-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.res-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.res-icon-text {
+    font-size: 40px;
+}
+
+/* Testimonial */
+.cons-testimonial {
+    background: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cons-testimonial blockquote {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+
+.test-logo {
+    margin-bottom: 20px;
+}
+
+.test-author p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Leading Companies */
+.cons-leading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 120px auto;
+    padding: 0 20px;
+}
+
+.leading-content {
+    flex: 1;
+    padding-right: 60px;
+}
+
+.leading-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.1;
+}
+
+.leading-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 500px;
+}
+
+/* FAQ */
+.cons-faq {
+    max-width: 800px;
+    margin: 120px auto;
+    padding: 0 20px 120px;
+}
+
+.cons-faq h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 24px 0;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    padding-bottom: 24px;
+    color: #444;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .cons-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cons-hero-content {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .cons-hero-buttons {
+        justify-content: center;
+    }
+
+    .cons-engagement-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .cons-cards-grid,
+    .cons-resource-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cons-leading {
+        flex-direction: column-reverse;
+    }
+
+    .leading-content {
+        padding-right: 0;
+        margin-top: 40px;
+    }
+}
